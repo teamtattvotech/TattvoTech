@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- SEO -->
   <title>Launching Soon | Tattvo Tech - Your Tech Solutions Partner</title>
   <meta name="description" content="Tattvo Tech is launching soon! We offer expert web development, reliable backend support, and professional Salesforce services.">
   <meta name="keywords" content="web development, backend support, Salesforce services, IT solutions, Tattvo Tech, coming soon, MilesWeb, India">
@@ -11,13 +10,12 @@
 
   <!-- Open Graph -->
   <meta property="og:title" content="Tattvo Tech: Launching on October 2nd!">
-  <meta property="og:description" content="Your trusted partner for innovative web, backend, and Salesforce solutions is launching soon.">
+  <meta property="og:description" content="Your trusted partner for innovative web, backend, and Salesforce solutions is launching soon. Get ready to transform your business.">
   <meta property="og:image" content="https://placehold.co/1200x630/1f2937/f9fafb?text=Launching+Soon">
   <meta property="og:url" content="https://www.yourwebsite.com">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
   <style>
@@ -27,79 +25,76 @@
       color: #c9d1d9;
       animation: fadeIn 1.5s ease-in-out;
     }
-    @keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+    /* Smooth mobile input focus */
+    input:focus {
+      outline: none;
+      box-shadow: 0 0 0 2px #14b8a6; /* Tailwind teal-400 focus ring */
+    }
   </style>
 </head>
-<body class="bg-gray-900 text-gray-200 min-h-screen flex flex-col">
+<body class="bg-gray-900 text-gray-200 min-h-screen flex flex-col items-center justify-center p-4">
 
-  <!-- Main -->
-  <main class="flex-grow flex items-center justify-center p-4">
-    <div class="text-center bg-gray-800 rounded-2xl shadow-2xl p-6 sm:p-10 lg:p-14 max-w-3xl w-full border border-gray-700">
+  <main class="w-full max-w-4xl text-center bg-gray-800 rounded-2xl shadow-2xl p-6 sm:p-10 lg:p-16 border border-gray-700">
+    <div class="mb-8 sm:mb-10">
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-teal-400 mb-4 animate-pulse leading-tight">
+        Your Next Tech Partner is Almost Here!
+      </h1>
+      <p class="text-base sm:text-lg text-gray-300">
+        We provide professional web development, backend support, and Salesforce services.
+      </p>
+    </div>
 
-      <!-- Heading -->
-      <div class="mb-8">
-        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-teal-400 mb-3 animate-pulse">
-          Your Next Tech Partner is Almost Here!
-        </h1>
-        <p class="text-base sm:text-lg text-gray-300">
-          We provide professional web development, backend support, and Salesforce services.
-        </p>
-      </div>
-
-      <!-- Countdown -->
-      <div class="bg-gray-700 p-5 rounded-xl shadow-lg mb-10 border border-gray-600">
-        <h2 class="text-xl sm:text-2xl font-semibold text-white mb-4">Launching on October 2nd</h2>
-        <div id="countdown" class="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 text-center">
-          <div class="bg-gray-900 p-3 rounded-lg shadow-inner">
-            <p id="days" class="text-2xl sm:text-4xl font-extrabold text-teal-300">00</p>
-            <p class="text-xs sm:text-sm text-gray-400 mt-1">Days</p>
-          </div>
-          <div class="bg-gray-900 p-3 rounded-lg shadow-inner">
-            <p id="hours" class="text-2xl sm:text-4xl font-extrabold text-teal-300">00</p>
-            <p class="text-xs sm:text-sm text-gray-400 mt-1">Hours</p>
-          </div>
-          <div class="bg-gray-900 p-3 rounded-lg shadow-inner">
-            <p id="minutes" class="text-2xl sm:text-4xl font-extrabold text-teal-300">00</p>
-            <p class="text-xs sm:text-sm text-gray-400 mt-1">Minutes</p>
-          </div>
-          <div class="bg-gray-900 p-3 rounded-lg shadow-inner">
-            <p id="seconds" class="text-2xl sm:text-4xl font-extrabold text-teal-300">00</p>
-            <p class="text-xs sm:text-sm text-gray-400 mt-1">Seconds</p>
-          </div>
+    <!-- Countdown -->
+    <div class="bg-gray-700 p-4 sm:p-6 rounded-xl shadow-lg mb-8 sm:mb-10 border border-gray-600">
+      <h2 class="text-xl sm:text-2xl font-semibold text-white mb-4">Launching on October 2nd</h2>
+      <div id="countdown" class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+        <div class="bg-gray-900 p-3 sm:p-4 rounded-lg shadow-inner">
+          <p id="days" class="text-2xl sm:text-4xl font-extrabold text-teal-300">00</p>
+          <p class="text-xs sm:text-sm text-gray-400 mt-1">Days</p>
+        </div>
+        <div class="bg-gray-900 p-3 sm:p-4 rounded-lg shadow-inner">
+          <p id="hours" class="text-2xl sm:text-4xl font-extrabold text-teal-300">00</p>
+          <p class="text-xs sm:text-sm text-gray-400 mt-1">Hours</p>
+        </div>
+        <div class="bg-gray-900 p-3 sm:p-4 rounded-lg shadow-inner">
+          <p id="minutes" class="text-2xl sm:text-4xl font-extrabold text-teal-300">00</p>
+          <p class="text-xs sm:text-sm text-gray-400 mt-1">Minutes</p>
+        </div>
+        <div class="bg-gray-900 p-3 sm:p-4 rounded-lg shadow-inner">
+          <p id="seconds" class="text-2xl sm:text-4xl font-extrabold text-teal-300">00</p>
+          <p class="text-xs sm:text-sm text-gray-400 mt-1">Seconds</p>
         </div>
       </div>
+    </div>
 
-      <!-- Form -->
-      <div class="bg-gray-700 p-6 rounded-xl shadow-lg border border-gray-600">
-        <h3 class="text-lg sm:text-2xl font-semibold text-white mb-3">Be the first to know!</h3>
-        <p class="text-gray-300 mb-6 text-sm sm:text-base">Enter your details to get notified and receive exclusive launch offers.</p>
+    <!-- Formspree Form -->
+    <div class="bg-gray-700 p-4 sm:p-6 rounded-xl shadow-lg border border-gray-600">
+      <h3 class="text-lg sm:text-xl font-semibold text-white mb-3">Be the first to know!</h3>
+      <p class="text-gray-300 mb-5 text-sm sm:text-base">Enter your details to get notified and receive exclusive launch offers.</p>
 
-        <form id="notify-form" action="send_email.php" method="POST" class="flex flex-col gap-3 sm:gap-4">
-          <input type="text" name="name" placeholder="Your Name" required
-            class="w-full bg-gray-900 border border-gray-600 rounded-full py-3 px-5 text-white focus:outline-none focus:ring-2 focus:ring-teal-500 placeholder-gray-500">
-          <input type="tel" name="number" placeholder="Your Phone Number" required
-            class="w-full bg-gray-900 border border-gray-600 rounded-full py-3 px-5 text-white focus:outline-none focus:ring-2 focus:ring-teal-500 placeholder-gray-500">
-          <input type="email" name="email" placeholder="Your Email" required
-            class="w-full bg-gray-900 border border-gray-600 rounded-full py-3 px-5 text-white focus:outline-none focus:ring-2 focus:ring-teal-500 placeholder-gray-500">
-          <button type="submit"
-            class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 duration-300 w-full">
-            Notify Me
-          </button>
-        </form>
+      <form action="https://formspree.io/f/mnqvkpwz" method="POST" class="flex flex-col sm:flex-row flex-wrap gap-3 justify-center">
+        <input type="text" name="name" placeholder="Your Name" required
+          class="flex-1 min-w-[150px] bg-gray-900 border border-gray-600 rounded-full py-2 sm:py-3 px-4 sm:px-6 text-white placeholder-gray-500">
+        <input type="tel" name="number" placeholder="Your Phone Number" required
+          class="flex-1 min-w-[150px] bg-gray-900 border border-gray-600 rounded-full py-2 sm:py-3 px-4 sm:px-6 text-white placeholder-gray-500">
+        <input type="email" name="email" placeholder="Your Email" required
+          class="flex-1 min-w-[150px] bg-gray-900 border border-gray-600 rounded-full py-2 sm:py-3 px-4 sm:px-6 text-white placeholder-gray-500">
+        <button type="submit"
+          class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full shadow-lg transition-transform transform hover:scale-105 w-full sm:w-auto mt-3 sm:mt-0">
+          Notify Me
+        </button>
+      </form>
 
-        <p id="message" class="mt-4 text-green-400 opacity-0 transition-opacity duration-300 text-sm sm:text-base">
-          Thank you! We'll be in touch soon.
-        </p>
-      </div>
+      <p id="message" class="mt-3 text-green-400 opacity-0 transition-opacity duration-300 text-sm sm:text-base">Thank you! We'll be in touch soon.</p>
     </div>
   </main>
 
-  <!-- Footer -->
-  <footer class="text-center p-4 text-gray-500 text-xs sm:text-sm">
+  <footer class="w-full text-center p-4 text-gray-500 text-xs sm:text-sm mt-6 sm:mt-10">
     <p>&copy; 2025 Tattvo Tech. All rights reserved.</p>
   </footer>
 
-  <!-- Countdown Script -->
   <script>
     const launchDate = new Date("October 2, 2025 00:00:00").getTime();
     const countdown = setInterval(() => {
@@ -113,16 +108,15 @@
 
       if (distance < 0) {
         clearInterval(countdown);
-        document.getElementById("countdown").innerHTML = `
-          <div class="col-span-2 sm:col-span-4 text-center">
-            <p class="text-3xl sm:text-5xl font-extrabold text-teal-400">We're Live!</p>
-            <p class="text-sm sm:text-lg mt-2">Visit our website now!</p>
-          </div>`;
+        document.getElementById("countdown").innerHTML = `<div class="col-span-4 text-center">
+          <p class="text-3xl sm:text-5xl font-extrabold text-teal-400">We're Live!</p>
+          <p class="text-sm sm:text-lg mt-2">Visit our website now!</p>
+        </div>`;
       } else {
-        document.getElementById("days").textContent = days.toString().padStart(2, "0");
-        document.getElementById("hours").textContent = hours.toString().padStart(2, "0");
-        document.getElementById("minutes").textContent = minutes.toString().padStart(2, "0");
-        document.getElementById("seconds").textContent = seconds.toString().padStart(2, "0");
+        document.getElementById("days").textContent = String(days).padStart(2, "0");
+        document.getElementById("hours").textContent = String(hours).padStart(2, "0");
+        document.getElementById("minutes").textContent = String(minutes).padStart(2, "0");
+        document.getElementById("seconds").textContent = String(seconds).padStart(2, "0");
       }
     }, 1000);
   </script>
